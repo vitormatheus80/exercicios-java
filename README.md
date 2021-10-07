@@ -1,2 +1,2 @@
-# Atividades_Java
+# Exercicios_Java
 Exercicios de Java para o bootcamp da Generation

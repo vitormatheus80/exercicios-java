@@ -17,7 +17,7 @@ public class Exercicio03 {
 			System.out.println("****Matriz N1*****");
 			for(int l = 0; l < n1.length; l++) { 	//leitura das linhas
 			for(int c = 0; c < n1[l].length; c++) { //leitura de colunas
-				System.out.println("Valor da posição: N1 [" + (l+1) + "]" + "[" + (c+1) + "]");
+				System.out.println("Valor da posiÃ§Ã£o: N1 [" + (l+1) + "]" + "[" + (c+1) + "]");
 				n1[l][c] = leia.nextDouble();
 				
 			}
@@ -27,7 +27,7 @@ public class Exercicio03 {
 			System.out.println("****Matriz N2*****");
 			for(int l = 0; l < n2.length; l++) { 	//leitura das linhas
 			for(int c = 0; c < n2[l].length; c++) { //leitura de colunas
-				System.out.println("Valor da posição: N2 [" + (l+1) + "]" + "[" + (c+1) + "]");
+				System.out.println("Valor da posiÃ§Ã£o: N2 [" + (l+1) + "]" + "[" + (c+1) + "]");
 				n2[l][c] = leia.nextDouble();
 			
 			
@@ -39,18 +39,21 @@ public class Exercicio03 {
 			for(int l = 0; l < m1.length; l++) {
 				for(int c = 0; c < m1[l].length; c++) {
 					m1[l][c] = n1[l][c] + n2 [l][c];
-					//System.out.println("M1 Posição ["+ (l+1) +"]" + "["+ (c+1) + "] " + m1[l][c]);	
+					//System.out.println("M1 PosiÃ§Ã£o ["+ (l+1) +"]" + "["+ (c+1) + "] " + m1[l][c]);	
 					System.out.printf("["+m1[l][c]+"] ");
 				}
+			System.out.println();
 			}
 			System.out.println("\n\n *******Matriz M2********");
 			for(int l = 0; l < m1.length; l++) {
 				for(int c = 0; c < m2[l].length; c++) {
 					m2[l][c] = n1[l][c] - n2 [l][c];
-					//System.out.println("M2 Posição ["+ (l+1) +"]" + "["+ (c+1) + "] " + m2[l][c]);	
+					//System.out.println("M2 PosiÃ§Ã£o ["+ (l+1) +"]" + "["+ (c+1) + "] " + m2[l][c]);	
 					System.out.printf("["+m2[l][c]+"] ");
 
 				}
+			System.out.println();
+
 			}
 		
 		leia.close();

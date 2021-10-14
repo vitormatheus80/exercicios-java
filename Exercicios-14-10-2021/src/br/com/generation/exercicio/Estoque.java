@@ -28,7 +28,7 @@ public class Estoque {
 	}
 	
 	public String toString() {
-		return "Produto: " + this.produto + "| Preço: " + this.preco + " R$";
+		return "Produto: " + this.produto + "------------ " + this.preco + " R$";
 	}
 	
 	
